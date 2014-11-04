@@ -4,8 +4,8 @@ var menu = (function(){
   var o ={
     l : {},
     preload: function(){
-      game.load.image('background', '/assets/start-screen.png');
-      game.load.image('start', '/assets/start-btn.png');
+      game.load.image('background', 'assets/start-screen.png');
+      game.load.image('start', 'assets/start-btn.png');
 
     },
     create: function(){
@@ -30,20 +30,20 @@ var level1 = (function(){
     l :{},
 
     preload: function(){
-      game.load.image('background', '/assets/background.png');
-      game.load.image('start', '/assets/star.png');
-      game.load.image('ground', '/assets/platform.png');
-      game.load.image('baddiesZ', '/assets/equality.png');
-      game.load.image('baddiesX1', '/assets/money.png');
-      game.load.image('baddiesX2', '/assets/ballot.png');
-      game.load.image('baddiesX3', '/assets/birthcontrol.png');
-      game.load.image('baddiesX4', '/assets/grad.png');
-      game.load.image('baddiesX5', '/assets/nonviolence.png');
-      game.load.spritesheet('fighter', '/assets/ninja-girl.png', 62, 78);
-      game.load.audio('song', '/assets/background.mp3');
-      game.load.audio('jump', '/assets/jump.wav');
-      game.load.audio('killX', '/assets/kill_X.wav');
-      game.load.audio('killZ', '/assets/kill_Z.mp3');
+      game.load.image('background', 'assets/background.png');
+      game.load.image('start', 'assets/star.png');
+      game.load.image('ground', 'assets/platform.png');
+      game.load.image('baddiesZ', 'assets/equality.png');
+      game.load.image('baddiesX1', 'assets/money.png');
+      game.load.image('baddiesX2', 'assets/ballot.png');
+      game.load.image('baddiesX3', 'assets/birthcontrol.png');
+      game.load.image('baddiesX4', 'assets/grad.png');
+      game.load.image('baddiesX5', 'assets/nonviolence.png');
+      game.load.spritesheet('fighter', 'assets/ninja-girl.png', 62, 78);
+      game.load.audio('song', 'assets/background.mp3');
+      game.load.audio('jump', 'assets/jump.wav');
+      game.load.audio('killX', 'assets/kill_X.wav');
+      game.load.audio('killZ', 'assets/kill_Z.mp3');
       //game.load.audio('song', '/assets/music.mp3');
       o.l.song = game.add.audio('song');
       o.l.song.loop = true;
