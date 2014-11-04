@@ -1,0 +1,17 @@
+body{
+  width: 100%;
+  height: auto;
+  background-color: #dff8ff;
+}
+
+#roundup{
+  width: 800px;
+  margin: 0 auto;
+}
+
+p{
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}

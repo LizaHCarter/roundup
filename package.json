@@ -1,0 +1,13 @@
+{
+  "name": "roundup",
+  "version": "1.0.0",
+  "description": "Round-up game",
+  "main": "app.js",
+  "author": "Liza Carter <lizahcarter@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.3.0",
+    "morgan": "^1.4.0",
+    "serve-static": "^1.7.0"
+  }
+}
