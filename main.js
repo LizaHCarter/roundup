@@ -32,9 +32,9 @@ var level1 = (function(){
     l :{},
 
     preload: function(){
-      game.load.image('background', '/assets/sky.png');
-      game.load.image('start', '/assets/star.png');
-      game.load.image('ground', '/assets/platform.png');
+      game.load.image('background', 'assets/sky.png');
+      game.load.image('start', 'assets/star.png');
+      game.load.image('ground', 'assets/platform.png');
     },
     create: function(){
       game.physics.startSystem(Phaser.Physics.ARCADE);
