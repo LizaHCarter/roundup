@@ -4,8 +4,8 @@ var menu = (function(){
   var o ={
     l : {},
     preload: function(){
-      game.load.image('background', '/assets/sky.png');
-      game.load.image('start', '/assets/star.png');
+      game.load.image('background', 'assets/sky.png');
+      game.load.image('start', 'assets/star.png');
 
     },
     create: function(){
